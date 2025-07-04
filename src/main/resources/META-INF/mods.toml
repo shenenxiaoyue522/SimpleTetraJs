@@ -1,0 +1,21 @@
+modLoader="javafml" #mandatory
+loaderVersion="${loader_version_range}" #mandatory
+license="${mod_license}"
+[[mods]] #mandatory
+modId="simple_tetra_js" #mandatory
+version="1.0" #mandatory
+displayName="Simple Tetra Js" #mandatory
+authors="xiaoyue" #optional
+description='''${mod_description}'''
+[[dependencies.simple_tetra_js]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="${forge_version_range}" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.simple_tetra_js]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
